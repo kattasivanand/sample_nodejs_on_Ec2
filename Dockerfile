@@ -14,7 +14,7 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
-# Now copy the rest of the app source code
+# Now copy the rest of the app source code or COPY . /app  you can use this also
 COPY . .
 
 # Expose the app port
