@@ -1,4 +1,4 @@
-# Use official Node.js LTS version
+# Use official Node.js LTS version im directly taking nodejs image if you take base image like ubuntu and install nodejs
 FROM node:18-alpine
 
 # Install bash (optional)
